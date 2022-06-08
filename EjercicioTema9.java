@@ -30,8 +30,8 @@ public class EjercicioTema9 {
 }
 
 class Persona {
-    int edad, telefono;
-    String nombre;
+    private int edad, telefono;
+    private String nombre;
 
     // Setters 
     public void setEdad(int edad) {
@@ -61,7 +61,7 @@ class Persona {
 }
 
 class Cliente extends Persona {
-    int credito;
+    private int credito;
 
     public void setCredito(int credito) {
 	this.credito = credito;
@@ -73,7 +73,7 @@ class Cliente extends Persona {
 }
 
 class Trabajador extends Persona {
-    int salario;
+    private int salario;
 
     public void setSalario(int salario) {
 	this.salario = salario;
